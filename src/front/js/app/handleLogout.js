@@ -6,6 +6,6 @@ export const handleLogout = () => {
 
     localStorage.removeItem('jwt-token');
 
-    location.replace('https://3000-4geeksacade-reactflaskh-iny5xmevfgu.ws-eu77.gitpod.io/login')
+    location.replace('/login')
   
 };
